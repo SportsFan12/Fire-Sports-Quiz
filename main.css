@@ -1,0 +1,68 @@
+body {
+  background-color: #FC4F4F;
+}
+
+button {
+  width: 55%;
+  margin-bottom: 35px;
+  font-family: 'Coiny', cursive;
+  font-size: 30px;
+  color: red;
+}
+
+button:hover {
+  background-color: skyblue;
+  border-color: skyblue;
+}
+
+input[type=checkbox] {
+  font-size: 20px;
+  width: 55%;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+h2 {
+  font-size: 30px;
+  padding-top: 20px;
+}
+
+/* Centers elements inside div */
+.container {
+  text-align: center;
+}
+
+/* Heading for Sports Quiz */
+#mainHeading {
+  display: inline-block;
+  color: white;
+  font-family: 'Gugi', cursive;
+  font-size: 70px;
+  text-decoration: underline;
+  margin: 30px 0px 30px 0px;
+  width: 100%;
+}
+
+/* Frame where questions, options and buttons will be */
+#mainFrame {
+  display: inline-block;
+  color: white;
+  font-family: 'Coiny', cursive;
+}
+
+/* Styles finish button */
+#finishButton {
+  margin-top: 50px;
+  background-color: firebrick;
+  border-color: firebrick;
+  color: white;
+  min-width: 200px;
+}
+
+/* Styles finish button when hovered */
+#finishButton:hover {
+  transform: scale(1.10);
+  border: solid 5px red;
+}
